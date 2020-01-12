@@ -1,0 +1,10 @@
+FROM ubuntu:18.04
+RUN apt-get update && apt-get install -y clang-6.0 net-tools iputils-ping make curl
+RUN update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-6.0 1000 && update-alternatives --config clang++
+RUN mkdir /code
+ADD . /code
+WORKDIR /code
+VOLUME ["/logs"]
+RUN make
+EXPOSE 12345
+CMD /bin/bash -c "export LD_LIBRARY_PATH=/code/lib; /code/proxy;"

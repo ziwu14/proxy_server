@@ -1,0 +1,321 @@
+Server start
+Daemon started
+0: CONNECT www.mnot.net:443 HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:34 2019 GMT
+0: Successfully send 200-OK to client
+0: Tunnel closed
+0: Responding RESPONSE
+0: Tunnel closed
+1: GET http://www.httpvshttps.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:36 2019 GMT
+1: not in cache
+1: Requesting GET http://www.httpvshttps.com/ HTTP/1.1 from www.httpvshttps.com
+1: Received HTTP/1.1 200 from www.httpvshttps.com
+1: NOTE cache the response
+1: Responding HTTP/1.1 200
+1: Tunnel closed
+2: GET http://www.example.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:36 2019 GMT
+2: not in cache
+2: Requesting GET http://www.example.com/ HTTP/1.1 from www.example.com
+2: Received HTTP/1.1 200 from www.example.com
+2: NOTE cache the response
+2: Responding HTTP/1.1 200
+2: Tunnel closed
+3: GET http://in.yahoo.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:36 2019 GMT
+3: not in cache
+3: Requesting GET http://in.yahoo.com/ HTTP/1.1 from in.yahoo.com
+3: Received HTTP/1.1 301 from in.yahoo.com
+3: NOTE cache the response
+3: Responding HTTP/1.1 301
+3: Tunnel closed
+4: GET http://www.baidu.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:36 2019 GMT
+4: not in cache
+4: Requesting GET http://www.baidu.com/ HTTP/1.1 from www.baidu.com
+4: Received HTTP/1.1 200 from www.baidu.com
+4: NOTE cache the response
+4: Responding HTTP/1.1 200
+4: Tunnel closed
+5: GET http://www.bing.com/?FORM=Z9FD1 HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:36 2019 GMT
+6: CONNECT www.mnot.net:443 HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:36 2019 GMT
+5: not in cache
+5: Requesting GET http://www.bing.com/?FORM=Z9FD1 HTTP/1.1 from www.bing.com
+5: Received HTTP/1.1 200 from www.bing.com
+5: NOTE cache the response
+NOTE evicted http://www.httpvshttps.com/
+5: Responding HTTP/1.1 200
+5: Tunnel closed
+6: Successfully send 200-OK to client
+6: Tunnel closed
+6: Responding RESPONSE
+6: Tunnel closed
+7: GET http://www.httpvshttps.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:38 2019 GMT
+7: not in cache
+7: Requesting GET http://www.httpvshttps.com/ HTTP/1.1 from www.httpvshttps.com
+7: Received HTTP/1.1 200 from www.httpvshttps.com
+7: NOTE cache the response
+NOTE evicted http://www.example.com/
+7: Responding HTTP/1.1 200
+7: Tunnel closed
+8: GET http://www.example.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:38 2019 GMT
+8: not in cache
+8: Requesting GET http://www.example.com/ HTTP/1.1 from www.example.com
+8: Received HTTP/1.1 200 from www.example.com
+8: NOTE cache the response
+NOTE evicted http://in.yahoo.com/
+8: Responding HTTP/1.1 200
+8: Tunnel closed
+9: GET http://in.yahoo.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:38 2019 GMT
+9: not in cache
+9: Requesting GET http://in.yahoo.com/ HTTP/1.1 from in.yahoo.com
+9: Received HTTP/1.1 301 from in.yahoo.com
+9: NOTE cache the response
+NOTE evicted http://www.baidu.com/
+9: Responding HTTP/1.1 301
+9: Tunnel closed
+10: GET http://www.baidu.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:38 2019 GMT
+10: not in cache
+10: Requesting GET http://www.baidu.com/ HTTP/1.1 from www.baidu.com
+10: Received HTTP/1.1 200 from www.baidu.com
+10: NOTE cache the response
+NOTE evicted http://www.bing.com/?FORM=Z9FD1
+10: Responding HTTP/1.1 200
+10: Tunnel closed
+11: GET http://www.tutorialspoint.com/http/http_requests.htm HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:39 2019 GMT
+12: GET http://www.bing.com/?FORM=Z9FD1 HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:39 2019 GMT
+11: not in cache
+11: Requesting GET http://www.tutorialspoint.com/http/http_requests.htm HTTP/1.1 from www.tutorialspoint.com
+12: not in cache
+12: Requesting GET http://www.bing.com/?FORM=Z9FD1 HTTP/1.1 from www.bing.com
+11: Received HTTP/1.1 200 from www.tutorialspoint.com
+11: NOTE cache the response
+NOTE evicted http://www.httpvshttps.com/
+11: Responding HTTP/1.1 200
+11: Tunnel closed
+13: GET http://www.columbia.edu/~fdc/sample.html HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:39 2019 GMT
+13: not in cache
+13: Requesting GET http://www.columbia.edu/~fdc/sample.html HTTP/1.1 from www.columbia.edu
+12: Received HTTP/1.1 200 from www.bing.com
+12: NOTE cache the response
+NOTE evicted http://www.example.com/
+12: Responding HTTP/1.1 200
+12: Tunnel closed
+13: Received HTTP/1.1 200 from www.columbia.edu
+13: NOTE cache the response
+NOTE evicted http://in.yahoo.com/
+13: Responding HTTP/1.1 200
+13: Tunnel closed
+14: GET http://www.yandex.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:39 2019 GMT
+14: not in cache
+14: Requesting GET http://www.yandex.com/ HTTP/1.1 from www.yandex.com
+14: Received HTTP/1.1 302 from www.yandex.com
+14: NOTE cache the response
+NOTE evicted http://www.baidu.com/
+14: Responding HTTP/1.1 302
+14: Tunnel closed
+15: GET http://www.quora.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:39 2019 GMT
+15: not in cache
+15: Requesting GET http://www.quora.com/ HTTP/1.1 from www.quora.com
+15: Received HTTP/1.1 301 from www.quora.com
+15: NOTE cache the response
+NOTE evicted http://www.tutorialspoint.com/http/http_requests.htm
+15: Responding HTTP/1.1 301
+15: Tunnel closed
+16: GET http://www.google.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:39 2019 GMT
+16: not in cache
+16: Requesting GET http://www.google.com/ HTTP/1.1 from www.google.com
+16: Received HTTP/1.1 200 from www.google.com
+16: NOTE cache the response
+NOTE evicted http://www.bing.com/?FORM=Z9FD1
+16: Responding HTTP/1.1 200
+16: Tunnel closed
+17: CONNECT www.mnot.net:443 HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:39 2019 GMT
+17: Successfully send 200-OK to client
+17: Tunnel closed
+17: Responding RESPONSE
+17: Tunnel closed
+18: GET http://www.httpvshttps.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:41 2019 GMT
+18: not in cache
+18: Requesting GET http://www.httpvshttps.com/ HTTP/1.1 from www.httpvshttps.com
+18: Received HTTP/1.1 200 from www.httpvshttps.com
+18: NOTE cache the response
+NOTE evicted http://www.columbia.edu/~fdc/sample.html
+18: Responding HTTP/1.1 200
+18: Tunnel closed
+19: CONNECT www.example.com:443 HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:41 2019 GMT
+19: Successfully send 200-OK to client
+19: Tunnel closed
+19: Responding RESPONSE
+19: Tunnel closed
+20: GET http://in.yahoo.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:42 2019 GMT
+20: not in cache
+20: Requesting GET http://in.yahoo.com/ HTTP/1.1 from in.yahoo.com
+20: Received HTTP/1.1 301 from in.yahoo.com
+20: NOTE cache the response
+NOTE evicted http://www.yandex.com/
+20: Responding HTTP/1.1 301
+20: Tunnel closed
+21: CONNECT www.baidu.com:443 HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:42 2019 GMT
+21: Successfully send 200-OK to client
+21: Tunnel closed
+21: Responding RESPONSE
+21: Tunnel closed
+22: CONNECT www.mnot.net:443 HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:42 2019 GMT
+23: GET http://www.bing.com/?FORM=Z9FD1 HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:42 2019 GMT
+23: not in cache
+23: Requesting GET http://www.bing.com/?FORM=Z9FD1 HTTP/1.1 from www.bing.com
+23: Received HTTP/1.1 200 from www.bing.com
+23: NOTE cache the response
+NOTE evicted http://www.quora.com/
+23: Responding HTTP/1.1 200
+23: Tunnel closed
+22: Successfully send 200-OK to client
+22: Tunnel closed
+22: Responding RESPONSE
+22: Tunnel closed
+24: GET http://www.example.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:44 2019 GMT
+24: not in cache
+24: Requesting GET http://www.example.com/ HTTP/1.1 from www.example.com
+24: Received HTTP/1.1 200 from www.example.com
+24: NOTE cache the response
+NOTE evicted http://www.google.com/
+24: Responding HTTP/1.1 200
+24: Tunnel closed
+25: GET http://in.yahoo.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:44 2019 GMT
+25: in cache, requires validation
+25: Received revalidation from SERVER
+25: 
+HTTP/1.1 301 Moved Permanently
+Date: Thu, 28 Feb 2019 09:18:44 GMT
+Proxy-Connection: keep-alive
+Via: http/1.1 media-router-fp1004.prod.media.bf1.yahoo.com (ApacheTrafficServer [c s f ])
+Server: ATS
+Cache-Control: no-store, no-cache
+Content-Type: text/html
+Content-Language: en
+Connection: keep-alive
+Content-Security-Policy: sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation; report-uri https://csp.yahoo.com/beacon/csp?src=ats&site=frontpage&region=IN&lang=en-IN&device=desktop&yrid=&partner=;
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; report="https://csp.yahoo.com/beacon/csp?src=fp-hpkp-in"
+Location: https://in.yahoo.com/
+Content-Length: 8
+
+
+26: GET http://www.baidu.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:44 2019 GMT
+26: not in cache
+26: Requesting GET http://www.baidu.com/ HTTP/1.1 from www.baidu.com
+26: Received HTTP/1.1 200 from www.baidu.com
+26: NOTE cache the response
+NOTE evicted http://www.httpvshttps.com/
+26: Responding HTTP/1.1 200
+26: Tunnel closed
+27: GET http://www.bing.com/?FORM=Z9FD1 HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:44 2019 GMT
+28: GET http://www.mnot.net/cache_docs/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:44 2019 GMT
+27: in cache, but expired at Thu Feb 28 09:18:42 2019 GMT
+27: Received revalidation from SERVER
+27: 
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Length: 118404
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: SRCHD=AF=Z9FD1; domain=.bing.com; expires=Sun, 28-Feb-2021 09:18:44 GMT; path=/
+Set-Cookie: SRCHUID=V=2&GUID=D9EBF2CC9E834690B487FDA6E58C97D5&dmnchg=1; domain=.bing.com; expires=Sun, 28-Feb-2021 09:18:44 GMT; path=/
+Set-Cookie: SRCHUSR=DOB=20190228; domain=.bing.com; expires=Sun, 28-Feb-2021 09:18:44 GMT; path=/
+Set-Cookie: _SS=SID=322114E3792D6F552E1D19F278AF6EFB; domain=.bing.com; path=/
+Set-Cookie: _EDGE_S=F=1&SID=322114E3792D6F552E1D19F278AF6EFB; path=/; httponly; domain=bing.com
+Set-Cookie: _EDGE_V=1; path=/; httponly; expires=Tue, 24-Mar-2020 09:18:44 GMT; domain=bing.com
+Set-Cookie: MUID=040944ED01076D1E1CFD49FC00856C61; path=/; expires=Tue, 24-Mar-2020 09:18:44 GMT; domain=bing.com
+Set-Cookie: MUIDB=040944ED01076D1E1CFD49FC00856C61; path=/; httponly; expires=Tue, 24-Mar-2020 09:18:44 GMT
+X-MSEdge-Ref: Ref A: 79F72E55ED8441A689F06150545FC13D Ref B: ASHEDGE0609 Ref C: 2019-02-28T09:18:44Z
+Date: Thu, 28 Feb 2019 09:18:44 GMT
+
+
+27: not cacheable because PRIVATE
+27: Responding HTTP/1.1 200
+27: Tunnel closed
+28: not in cache
+28: Requesting GET http://www.mnot.net/cache_docs/ HTTP/1.1 from www.mnot.net
+28: Received HTTP/1.1 301 from www.mnot.net
+28: NOTE cache the response
+NOTE evicted http://www.example.com/
+28: Responding HTTP/1.1 301
+28: Tunnel closed
+29: GET http://www.httpvshttps.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:45 2019 GMT
+29: not in cache
+29: Requesting GET http://www.httpvshttps.com/ HTTP/1.1 from www.httpvshttps.com
+29: Received HTTP/1.1 200 from www.httpvshttps.com
+29: NOTE cache the response
+NOTE evicted http://in.yahoo.com/
+29: Responding HTTP/1.1 200
+29: Tunnel closed
+30: GET http://www.example.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:45 2019 GMT
+30: not in cache
+30: Requesting GET http://www.example.com/ HTTP/1.1 from www.example.com
+30: Received HTTP/1.1 200 from www.example.com
+30: NOTE cache the response
+NOTE evicted http://www.baidu.com/
+30: Responding HTTP/1.1 200
+30: Tunnel closed
+31: GET http://in.yahoo.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:45 2019 GMT
+31: not in cache
+31: Requesting GET http://in.yahoo.com/ HTTP/1.1 from in.yahoo.com
+31: Received HTTP/1.1 301 from in.yahoo.com
+31: NOTE cache the response
+NOTE evicted http://www.bing.com/?FORM=Z9FD1
+31: Responding HTTP/1.1 301
+31: Tunnel closed
+32: GET http://www.baidu.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:45 2019 GMT
+32: not in cache
+32: Requesting GET http://www.baidu.com/ HTTP/1.1 from www.baidu.com
+32: Received HTTP/1.1 200 from www.baidu.com
+32: NOTE cache the response
+NOTE evicted http://www.mnot.net/cache_docs/
+32: Responding HTTP/1.1 200
+32: Tunnel closed
+33: GET http://www.tutorialspoint.com/http/http_requests.htm HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:45 2019 GMT
+34: GET http://www.bing.com/?FORM=Z9FD1 HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:45 2019 GMT
+33: not in cache
+33: Requesting GET http://www.tutorialspoint.com/http/http_requests.htm HTTP/1.1 from www.tutorialspoint.com
+34: not in cache
+34: Requesting GET http://www.bing.com/?FORM=Z9FD1 HTTP/1.1 from www.bing.com
+33: Received HTTP/1.1 200 from www.tutorialspoint.com
+33: NOTE cache the response
+NOTE evicted http://www.httpvshttps.com/
+33: Responding HTTP/1.1 200
+33: Tunnel closed
+35: GET http://www.columbia.edu/~fdc/sample.html HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:46 2019 GMT
+35: not in cache
+35: Requesting GET http://www.columbia.edu/~fdc/sample.html HTTP/1.1 from www.columbia.edu
+35: Received HTTP/1.1 200 from www.columbia.edu
+35: NOTE cache the response
+NOTE evicted http://www.example.com/
+35: Responding HTTP/1.1 200
+34: Received HTTP/1.1 200 from www.bing.com
+34: NOTE cache the response
+NOTE evicted http://in.yahoo.com/
+34: Responding HTTP/1.1 200
+34: Tunnel closed
+35: Tunnel closed
+36: GET http://www.yandex.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:46 2019 GMT
+36: not in cache
+36: Requesting GET http://www.yandex.com/ HTTP/1.1 from www.yandex.com
+36: Received HTTP/1.1 302 from www.yandex.com
+36: NOTE cache the response
+NOTE evicted http://www.baidu.com/
+36: Responding HTTP/1.1 302
+36: Tunnel closed
+37: GET http://www.quora.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:46 2019 GMT
+37: not in cache
+37: Requesting GET http://www.quora.com/ HTTP/1.1 from www.quora.com
+37: Received HTTP/1.1 301 from www.quora.com
+37: NOTE cache the response
+NOTE evicted http://www.tutorialspoint.com/http/http_requests.htm
+37: Responding HTTP/1.1 301
+37: Tunnel closed
+38: GET http://www.google.com/ HTTP/1.1 from 127.0.0.1 @ Thu Feb 28 09:18:46 2019 GMT
+38: not in cache
+38: Requesting GET http://www.google.com/ HTTP/1.1 from www.google.com
+38: Received HTTP/1.1 200 from www.google.com
+38: NOTE cache the response
+NOTE evicted http://www.columbia.edu/~fdc/sample.html
+38: Responding HTTP/1.1 200
+38: Tunnel closed

@@ -1,0 +1,4 @@
+1. thread safe functions on cache storage and retrieval, time aquisition, log read/write
+1. all these safe problems are solved by mutex and and thread safer time functions
+2. 400 and 502 is finished in a bit hurry, no time to do testing
+3. docker and docker-compose are tried, and successfully run, and response responds to client, but fail to write to local log file. We have figured out how to mount the /var/log/erss to host directory
